@@ -1,4 +1,5 @@
-# class_o2
+# CCE Vue.js
+Vue.js classes for Concordia Continuing Education
 
 ## Project setup
 ```
