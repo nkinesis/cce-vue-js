@@ -1,6 +1,6 @@
 // Source: https://www.kaggle.com/datasets/sootersaalu/amazon-top-50-bestselling-books-2009-2019
 
-export const bookList = [
+const bookList = [
     {
         name: "10-Day Green Smoothie Cleanse",
         author: "JJ Smith",
@@ -4952,3 +4952,5 @@ export const bookList = [
         genre: "Non Fiction"
     }
 ]
+
+export default bookList

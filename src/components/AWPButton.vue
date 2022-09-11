@@ -1,5 +1,5 @@
 <template>
-    <button class="blue" @click="textClicked = 'abc'">{{text}} {{textClicked}}</button>
+    <button class="blue" @click="setTextClicked">{{text}} {{textClicked}}</button>
 </template>
 
 <script>
@@ -10,6 +10,11 @@ export default {
             textClicked: ''
         }
     },
+    methods: {
+        setTextClicked: function () {
+            this.textClicked = ':)'
+        }
+    },
     props: {
         text: String
     }
@@ -17,9 +22,9 @@ export default {
 </script>
 
 <style>
-    .blue {
-        padding: 5px;
-        border: 1px solid #000;
-        background-color: deepskyblue;
-    }
+.blue {
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: deepskyblue;
+}
 </style>

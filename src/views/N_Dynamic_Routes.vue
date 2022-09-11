@@ -1,7 +1,9 @@
 <template>
-    <h1>Dynamic routes</h1>
-    <p>This view was lazy-loaded, and we can read its route parameters</p>
-    <p>Parameter "id": {{ $route.params.id }}</p>
+    <div>
+        <h1>Dynamic routes</h1>
+        <p>This view was lazy-loaded, and we can read its route parameters</p>
+        <p>Parameter "id": {{ $route.params.id }}</p>
+    </div>
 </template>
 
 <script>

@@ -14,6 +14,7 @@ import J_Custom_Directives from '../views/J_Custom_Directives'
 import K_Transition from '../views/K_Transition'
 import L_KeepAlive from '../views/L_KeepAlive'
 import M_State_Mgmt from '../views/M_State_Mgmt'
+import P_XSS_Example from '../views/P_XSS_Example'
 
 const routes = [
   {
@@ -99,7 +100,17 @@ const routes = [
   { 
     path: '/:pathMatch(.*)*', 
     name: 'NotFound', 
-    component: () => import('@/views/NotFound') 
+    component: () => import('@/views/O_NotFound') 
+  },
+  {
+    path: '/exampleP',
+    name: 'exampleP',
+    component: P_XSS_Example
+  },
+  {
+    path: '/exampleP/:query',
+    name: 'exampleP',
+    component: P_XSS_Example
   },
 ]
 

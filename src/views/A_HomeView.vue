@@ -56,6 +56,9 @@
       <li>
         <router-link to="qwertywxyz">404 page</router-link>
       </li>
+      <li>
+        <router-link to="exampleP/game">XSS example</router-link>
+      </li>
     </ul>
   </div>
 </template>
