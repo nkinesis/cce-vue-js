@@ -59,6 +59,9 @@
       <li>
         <router-link to="exampleP/game">XSS example</router-link>
       </li>
+      <li>
+        <router-link to="exampleQ">Test json-server</router-link>
+      </li>
     </ul>
   </div>
 </template>
@@ -70,17 +73,17 @@ export default {
 </script>
 
 <style lang="scss">
-ul{
+ul {
 
   &.main {
     width: 80%;
-  margin: auto;
-  text-align: left;
+    margin: 0 auto 50px;
+    text-align: left;
   }
 
   &.sub {
-  margin: auto;
-  text-align: left;
+    margin: auto;
+    text-align: left;
   }
 
 

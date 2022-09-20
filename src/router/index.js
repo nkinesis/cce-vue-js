@@ -15,6 +15,7 @@ import K_Transition from '../views/K_Transition'
 import L_KeepAlive from '../views/L_KeepAlive'
 import M_State_Mgmt from '../views/M_State_Mgmt'
 import P_XSS_Example from '../views/P_XSS_Example'
+import Q_Json_Server from '../views/Q_Json_Server'
 
 const routes = [
   {
@@ -111,6 +112,11 @@ const routes = [
     path: '/exampleP/:query',
     name: 'exampleP',
     component: P_XSS_Example
+  },
+  {
+    path: '/exampleQ',
+    name: 'exampleQ',
+    component: Q_Json_Server
   },
 ]
 
