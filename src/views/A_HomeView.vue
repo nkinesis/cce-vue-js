@@ -69,6 +69,13 @@
 <script>
 export default {
   name: 'HomeView',
+  beforeMount() {
+    fetch('/api/users').then(function (response) {
+      return response.json()
+    }).then(function (data) {
+      console.log(data)
+    })
+  }
 }
 </script>
 
