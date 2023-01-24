@@ -4,63 +4,66 @@
     <h1>Vue.js examples</h1>
     <ul class="main">
       <li>
-        <router-link to="exampleA">V-model</router-link>
+        <router-link to="list">Simple list</router-link>
       </li>
       <li>
-        <router-link to="exampleB">Computed properties</router-link>
+        <router-link to="vmodel">V-model</router-link>
       </li>
       <li>
-        <router-link to="exampleC">Watchers</router-link>
+        <router-link to="computed-prop">Computed properties</router-link>
       </li>
       <li>
-        <router-link to="exampleD">Class and style bindings</router-link>
+        <router-link to="style-bindings">Class and style bindings</router-link>
       </li>
       <li>
-        <router-link to="exampleE">Fallthrough attributes</router-link>
+        <router-link to="fallthrough-attr">Fallthrough attributes</router-link>
       </li>
       <li>
-        <router-link to="exampleF">Refs</router-link>
+        <router-link to="refs">Refs</router-link>
+      </li>
+      <li>
+        <router-link to="watchers">Watchers</router-link>
       </li>
       <li>
         Provide/Inject
       </li>
       <ul class="sub">
         <li>
-          <router-link to="exampleG1">Basic example</router-link>
+          <router-link to="provide-inject1">Basic example</router-link>
         </li>
         <li>
-          <router-link to="exampleG2">Avoiding collisions</router-link>
+          <router-link to="provide-inject2">Avoiding collisions</router-link>
         </li>
       </ul>
       <li>
-        <router-link to="exampleH">Async components</router-link>
+        <router-link to="composable">Composables</router-link>
       </li>
       <li>
-        <router-link to="exampleI">Composables</router-link>
+        <router-link to="async">Async components</router-link>
       </li>
       <li>
-        <router-link to="exampleJ">Custom directives</router-link>
+        <router-link to="custom-directives">Custom directives</router-link>
       </li>
       <li>
-        <router-link to="exampleK">Transition</router-link>
+        <router-link to="keep-alive">KeepAlive</router-link>
       </li>
       <li>
-        <router-link to="exampleL">KeepAlive</router-link>
+        <router-link to="state-mgmt">State Management</router-link>
       </li>
       <li>
-        <router-link to="exampleM">State Management</router-link>
+        <router-link to="transition">Transition</router-link>
       </li>
       <li>
-        <router-link to="exampleN/1">Dynamic routes</router-link>
+        <router-link to="dynamic-routes/1">Dynamic routes</router-link>
       </li>
       <li>
         <router-link to="qwertywxyz">404 page</router-link>
       </li>
       <li>
-        <router-link to="exampleP/game">XSS example</router-link>
+        <router-link to="xss/game">XSS example</router-link>
       </li>
       <li>
-        <router-link to="exampleQ">Test json-server</router-link>
+        <router-link to="json-server">Test json-server</router-link>
       </li>
     </ul>
   </div>
