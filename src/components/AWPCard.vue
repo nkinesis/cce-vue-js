@@ -1,5 +1,8 @@
 <template>
     <div class="card">
+        <div v-if="image" class="myTestImg">
+            <img :src="require('@/assets/' + image)">
+        </div>
         <p>{{isDarkMode ? "Dark" : "Light"}} mode</p>
         <p>{{title}}</p>
     </div>
@@ -9,7 +12,8 @@
 export default {
     name: "AWPCard",
     props: {
-        title: String
+        title: String,
+        image: String
     },
     inject:
     {
@@ -33,5 +37,9 @@ export default {
         color: #fff;
         background-color: #000;
     }
+}
+
+.myTestImg {
+    margin-bottom: 10px;
 }
 </style>
